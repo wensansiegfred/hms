@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Hms</title>
+    <title>Hospital Management System</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
-    <%= yield %>
+		<!-- HEADER -->
+		<%= render "partials/nav" %>
+		<!-- PAGE CONTAINER -->
+		<div class="page-container row">
+			<!-- SIDE BAR -->
+			<%= render "partials/sidebar" %>
+			<!-- PAGE CONTENT -->
+			<div class="page-content">
+				<div class="content">
+					<%= yield %>
+				</div>
+			</div>
+		</div>
   </body>
 </html>

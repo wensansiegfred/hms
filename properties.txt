@@ -1,0 +1,26 @@
+USER:
+id,
+email,
+password,
+active
+
+HOSPITAL:
+id,
+name,
+location,
+h_type, private/public
+address_street,
+address_city,
+address_country,
+phone
+
+PATIENT:
+id,
+first_name,
+last_name,
+birth_day,
+gender
+
+
+
+

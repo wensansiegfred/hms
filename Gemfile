@@ -9,13 +9,15 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 #added gems
-gem 'bootstrap-sass'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 gem 'bcrypt'
 gem 'mysql2'
+gem 'jquery-rails'
+gem "font-awesome-rails"
+gem 'bootstrap', '~> 4.0.0.beta3'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
